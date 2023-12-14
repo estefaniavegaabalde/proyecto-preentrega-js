@@ -1,0 +1,29 @@
+.custom-header {
+    background-color: #007bff; 
+    color: white;
+}
+
+.custom-header .navbar-brand,
+.custom-header .nav-link {
+    color: white;
+}
+
+.custom-header .nav-link:hover,
+.custom-header .navbar-brand:hover {
+    color: #ddd; 
+}
+
+.custom-footer {
+    background-color: #343a40; 
+    color: white;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
