@@ -6,6 +6,7 @@
     <title>Mi Sitio Web</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -54,6 +55,30 @@
     </div>
 </div>
 
+<!-- Formulario para la entrada -->
+<div class="row mt-4">
+    <div class="col-md-12">
+        <form id="currencyForm">
+            <input type="number" id="amountInput" placeholder="Cantidad en pesos" required>
+            <select id="currencySelect">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Convertir</button>
+        </form>
+    </div>
+</div>
+
+<!-- Área para mostrar resultados y historial -->
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h3 id="resultOutput"></h3>
+        <h4>Historial de Conversiones:</h4>
+        <ul id="historyList"></ul>
+    </div>
+</div>
+
+
 <footer class="mt-auto py-3 bg-dark text-white">
     <div class="container text-center">
         <ul class="list-unstyled">
@@ -68,8 +93,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+<script src="main.js"></script>
 </body>
 
-<script src="java.js"></script>
+
 </html>
